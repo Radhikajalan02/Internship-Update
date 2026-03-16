@@ -1,0 +1,1 @@
+setInterval((count)=>{return count+1 },1000)

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning DOM</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            text-align: center;
+            align-items: center;
+        }
+        .highlight{
+            background-color: yellow;
+            color: black;
+            font-weight: bold;
+        }
+        .hidden{
+            display:none;
+        }
+        
+    </style>
+  
+</head>
+<body >
+    <section id="eg1">
+        <h2>Accessing DOM elements</h2>
+        <p id="paragraph1"> click the button to change me</p>
+        <button id="changeTextButton">Change text</button>
+    </section>
+    <section id="eg2">
+        <h2>Traversing DOM elements</h2>
+        <ul id="cities">
+            <li class="chai">New York</li> <!--we need to access this element after the button bcz we are making change in this not in the para like eg1-->
+            <li>Tokyo</li>
+            <li>Paris</li>
+            <li>London</li>
+        </ul>
+        <p id="paragraph2"> click the button to highlight first city</p>
+        <button id="highlight">highlight first city</button>
+    </section>
+    <section id="eg3">
+        <h2>Manipulating DOM elements</h2>
+        <div id="coffeeOrder">Order:<span id="coffeeType">Latte</span></div>
+        <button id="changeOrder">Change order to espresso</button>
+    </section>
+    <section id="eg4">
+        <h2>creating and inserting elements</h2>
+        <p id="paragraph4"> click the button to add item</p>
+        <ul id="shoppingList">
+            <li>Bread</li>
+            <li>Milk</li>
+        </ul>
+        <button id="addItem">add item to list</button>
+    </section>
+    <section id="eg5">
+        <h2>removing DOM element</h2>
+        <ul id="taskList">
+            <li>task1</li>
+            <li>task2</li>
+            <li>task3</li>
+        </ul>
+        <button id="remove">remove last task</button>
+    </section>
+    <section id="eg6">
+     <h2>Event Handling in the DOM</h2>
+     <button id="clickMeButton">Click me!</button>
+    </section>
+
+    <section id="eg7">
+        <h2>Event Delegation</h2>
+        <ul id="teaList">
+            <li class="teaItem">Green Tea</li>
+            <li class="teaItem">Black tea</li>
+            <li class="teaItem">Milk Tea</li>
+        </ul>
+        <p>Click on any tea to select it</p>
+       </section>
+
+    <section id="eg8">
+      <h2>Form Handling</h2>
+      <form id="myForm">
+        <label id="input">Your Feedback:</label>
+        <input type="text" id="myForm" placeholder="Enter Feedback"/>
+        <button type="submit">Submit</button>
+        <p id="feedbackDisplay"></p>
+      </form>
+    </section>
+    <section id="eg9">
+     <h2>DOM loading</h2>
+     <p id="DOM status">Waiting for to DOM load</p>
+    </section>
+    <section id="eg10">
+        <h2>DOM manipulation with CSS</h2>
+        <p id="descriptionText">Click the button to change my color of text</p>
+        <button id="toggleHighlight">Toggle Highlight</button>
+
+    </section>
+    
+     <script src="./script.js"></script>
+</body>
+ 
+</html>

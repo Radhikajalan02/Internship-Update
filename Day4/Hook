@@ -1,0 +1,8 @@
+| Hook        | Purpose                     |
+| ----------- | --------------------------- |
+| useState    | manage component state      |
+| useEffect   | handle side effects         |
+| useRef      | persist values / access DOM |
+| useMemo     | cache/memoize expensive values and the function doesnt re run   |
+| useContext  | share global data           |
+| useCallback | cache/memoize functions reference  but the function re runs everytime       |

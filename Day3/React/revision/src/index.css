@@ -1,0 +1,15 @@
+*{
+  font-family: Arial, sans-serif;
+  
+  padding: 0;
+}
+body{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(55, 58, 89);
+  color: white;
+  margin-top: 1rem;
+}

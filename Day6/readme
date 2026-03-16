@@ -1,0 +1,1 @@
+useMemo is used to memoize functions so that if need be in future it can use that value without performing the operation again thus it prevents expensive operation redo for the last value of the operation not for any previous from the  last values
