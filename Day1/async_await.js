@@ -1,3 +1,5 @@
+// async await is a cleaner way to handle promises
+
 async function f1(){
     try{
         const response=await fetch("url")
