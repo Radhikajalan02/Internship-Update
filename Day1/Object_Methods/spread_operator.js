@@ -3,7 +3,7 @@ const arr = [2, 3];
 
 const newArr = [1, ...arr, 4];
 
-console.log(newArr);
+console.log(newArr); //output will be [1,2,3,4]
 
 const user = {
   name: "Radhika",

@@ -8,7 +8,7 @@ const arr=[1,3,5,7]
 const[a,,c,d]=arr
 console.log(a,c,d);
 
-// object destructuring extracts values from objects using property names
+// object destructuring extracts values from objects using property names (keys)
 
 const user={
     name:"rads",
