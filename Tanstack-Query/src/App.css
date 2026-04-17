@@ -114,3 +114,24 @@ a {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.section-accordion {
+  background-color: #bab7f6;
+  padding: 20px;
+}
+
+/* target each product block */
+.section-accordion > div {
+  background: white;
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* hover effect */
+.section-accordion > div:hover {
+  transform: scale(1.02);
+}
